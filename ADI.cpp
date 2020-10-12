@@ -81,22 +81,8 @@ sum-=a[x];
 a[x]=0;
 }
 
-else
-{
-if(t<=x)
-{
-sum=sum-t;
-t=0;
-x=x-t;
-}
-else
-{
-sum=sum-x;
-x=0; 
-}
-}
-cout<<sum<<endl;
-}
+assert(x==1000);
+while(true);
 
 
 }
